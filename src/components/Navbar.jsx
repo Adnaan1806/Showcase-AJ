@@ -12,10 +12,10 @@ const Navbar = () => {
             <p className='font-bold text-3xl hover:text-pink-600 cursor-pointer'>AJ</p>
         </div>
         <div className='m-8 flex items-center justify-center gap-4 text-2xl'>
-            <FaLinkedin className='hover:translate-y-2 hover:shadow-[0_0_17px_5px_theme(colors.pink.600)] transition-all duration-200 cursor-pointer'/>
-            <FaGithub className='hover:translate-y-2 hover:shadow-[0_0_17px_5px_theme(colors.pink.600)] transition-all duration-200 cursor-pointer'/>
-            <FaInstagram className='hover:translate-y-2 hover:shadow-[0_0_17px_5px_theme(colors.pink.600)] transition-all duration-200 cursor-pointer'/>
-            <FaSquareXTwitter className='hover:translate-y-2 hover:shadow-[0_0_17px_5px_theme(colors.pink.600)] transition-all duration-200 cursor-pointer'/>
+            <a href="https://www.linkedin.com/in/adnaan-janees-b37232216/" target='_blank'><FaLinkedin className='hover:translate-y-2 hover:shadow-[0_0_17px_5px_theme(colors.pink.600)] transition-all duration-200 cursor-pointer'/></a>
+            <a href="https://github.com/Adnaan1806" target='_blank'><FaGithub className='hover:translate-y-2 hover:shadow-[0_0_17px_5px_theme(colors.pink.600)] transition-all duration-200 cursor-pointer'/></a>
+            <a href="https://www.instagram.com/adnaanjanees/" target='_blank'><FaInstagram className='hover:translate-y-2 hover:shadow-[0_0_17px_5px_theme(colors.pink.600)] transition-all duration-200 cursor-pointer'/></a>
+            <a href="https://x.com/home" target='_blank'><FaSquareXTwitter className='hover:translate-y-2 hover:shadow-[0_0_17px_5px_theme(colors.pink.600)] transition-all duration-200 cursor-pointer'/></a>
         </div>
     </nav>
   )
