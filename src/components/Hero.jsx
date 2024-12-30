@@ -12,7 +12,7 @@ const Hero = () => {
               Adnaan Janees
             </h1>
             <span className="bg-gradient-to-r from-pink-300 via-slate-500 to-purple-500 bg-clip-text text-4xl tracking-tight text-transparent">
-              Full Stack Developer
+              Software Engineer | QA Engineer
             </span>
             <p className="my-2 max-w-xl py-6 font-light tracking-tighter">
               {HERO_CONTENT}
@@ -21,7 +21,7 @@ const Hero = () => {
         </div>
         <div className="w-full lg:w-1/2 lg:p-8">
           <div className="flex justify-center">
-               <img width={450} src={profilePic} alt="Adnaan Janees" />
+            <img width={450} src={profilePic} alt="Adnaan Janees" />
           </div>
         </div>
       </div>
