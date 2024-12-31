@@ -1,5 +1,5 @@
 import React from "react";
-import aboutImg from "../assets/prof1.png";
+import aboutImg from "../assets/mypic.png";
 import { ABOUT_TEXT, ABOUT_TWO } from "../constants";
 import { delay, motion } from "framer-motion";
 
@@ -18,8 +18,8 @@ const About = () => {
         >
           <div className="flex items-center justify-center">
             <img
-              width={430}
-              className="rounded-2xl"
+              width={490}
+              className="rounded-2xl mt-8"
               src={aboutImg}
               alt="about"
             />
