@@ -1,6 +1,6 @@
 import React from "react";
-import aboutImg from "../assets/abme.png";
-import { ABOUT_TEXT } from "../constants";
+import aboutImg from "../assets/prof1.png";
+import { ABOUT_TEXT, ABOUT_TWO } from "../constants";
 import { delay, motion } from "framer-motion";
 
 const About = () => {
@@ -28,8 +28,8 @@ const About = () => {
         <motion.div whileInView={{ opacity: 1, x: 0 }}
           initial={{ opacity: 0, x: 100 }}
           transition={{ duration: 0.5 }} className="w-full lg:w-1/2">
-          <div className="flex justify-center lg:justify-start">
-            <p className="my-2 max-w-xl py-10">{ABOUT_TEXT}</p>
+          <div className="justify-center lg:justify-start">
+            <p className="my-2 max-w-xl py-10">{ABOUT_TEXT} <br /> <br />{ABOUT_TWO}</p>
           </div>
         </motion.div>
       </div>

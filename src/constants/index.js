@@ -1,13 +1,13 @@
-import project1 from "../assets/projects/project-1.jpg";
-import project2 from "../assets/projects/project-2.jpg";
-import project3 from "../assets/projects/project-3.jpg";
-import project4 from "../assets/projects/project-4.jpg";
+import project1 from "../assets/projects/proj1.png";
+import project2 from "../assets/projects/proj2.png";
+import project3 from "../assets/projects/proj3.png";
+import project4 from "../assets/projects/proj4.png";
 
 export const HERO_CONTENT = `I am a passionate Software Engineer | QA Engineer  with a knack for crafting robust and scalable while also focusing on testing web applications. With more than 1 year of hands-on experience, I have honed my skills in front-end technologies like React and Html, TailwindCss, as well as back-end technologies like Node.js, MongoDB, Express. My goal is to leverage my expertise to create innovative solutions that drive business growth and deliver exceptional user experiences while also focusing on testing to ensure the quality of the product.`;
 
-export const ABOUT_TEXT = `I am a passionate Software Engineer and QA Engineer with over a year of hands-on experience in designing, developing, and testing robust, scalable web applications. Proficient in front-end technologies like React, HTML, and Tailwind CSS, as well as back-end frameworks such as Node.js, Express, and MongoDB, I specialize in delivering innovative solutions that drive business growth and exceptional user experiences.
+export const ABOUT_TEXT = `I am a passionate Software Engineer and QA Engineer with over a year of hands-on experience in designing, developing, and testing robust, scalable web applications. Proficient in front-end technologies like React, HTML, and Tailwind CSS, as well as back-end frameworks such as Node.js, Express, and MongoDB.  I specialize in delivering innovative solutions that drive business growth and exceptional user experiences.`
 
-My expertise extends to test design, execution, and various testing methodologies, ensuring software quality and reliability. Seamlessly managing UAT and production releases, I have also taken on the role of Scrum Master, where I honed my leadership and project management skills. By facilitating agile processes, enhancing team collaboration, and driving continuous improvement, I consistently deliver high-quality software solutions that exceed project goals and stakeholder expectations.
+export const ABOUT_TWO = `My expertise extends to test design, execution, and various testing methodologies, ensuring software quality and reliability. Seamlessly managing UAT and production releases, I have also taken on the role of Scrum Master, where I honed my leadership and project management skills. By facilitating agile processes, enhancing team collaboration, and driving continuous improvement, I consistently deliver high-quality software solutions that exceed project goals and stakeholder expectations.
 
 With a strong foundation in both development and quality assurance, I am committed to balancing technical precision with strategic planning to create impactful and reliable software products.`;
 
@@ -37,7 +37,7 @@ export const PROJECTS = [
     technologies: ["React", "TailwindCss", "Express", "Node.js", "MongoDB","Git"],
   },
   {
-    title: "Note Management App",
+    title: "Notes Management App",
     image: project2,
     description:
       "An application for managing tasks and projects, with features such as task creation, assignment, and progress tracking.",
