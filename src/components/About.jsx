@@ -29,7 +29,7 @@ const About = () => {
           initial={{ opacity: 0, x: 100 }}
           transition={{ duration: 0.5 }} className="w-full lg:w-1/2">
           <div className="justify-center lg:justify-start">
-            <p className="my-2 max-w-xl py-10">{ABOUT_TEXT} <br /> <br />{ABOUT_TWO}</p>
+            <p className="my-2 max-w-xl py-10 ">{ABOUT_TEXT} <br /> <br />{ABOUT_TWO}</p>
           </div>
         </motion.div>
       </div>
